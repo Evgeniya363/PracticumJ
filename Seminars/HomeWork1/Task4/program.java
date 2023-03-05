@@ -26,7 +26,7 @@ public class program {
     static int inputData(Scanner scanner, char[] letters, String[] qwe) {
         int maxlen = 0;
         for (int i = 0; i < letters.length; i++) {
-            String input = inputStr(scanner, letters[i] + " = ", 10, 99);
+            String input = inputStr(scanner, letters[i] + " = ");
             qwe[i] = input;
             int len = input.length();
             if (maxlen < len)
@@ -67,8 +67,7 @@ public class program {
 
     static String findSolutions(int[][] digit) {
         // Метод поиска хотя бы одного решения
-        StringBuilder builder = new StringBuilder();
-        builder.append("Решение от младших разрядов к старшим: ");
+        String message = "Решение от младших разрядов к старшим: ";
         int isOwer = 0; // Возможный перенос
         for (int i = digit.length - 1; i >= 0; i--) {
             int s = digit[i][3];
@@ -87,40 +86,40 @@ public class program {
 
             if (s < 0) {
                 if (q > 0)
-                    builder.append(String.format("%d-q  ", -s));
+                    message += String.format("%d-q  ", -s);
                 else if (w > 0)
-                    builder.append(String.format("%d-w ", -s));
+                    message += String.format("%d-w ", -s);
                 else if (s == -1) // Возможен перенос
                     isOwer = 1;
                 else
-                    return builder.append("Левая часть: решения нет в разряде " + (digit.length - i)).toString();
+                    return message += ("Левая часть: решения нет в разряде " + (digit.length - i));
 
             } else if (s > 0)
                 if (e > 0)
-                    builder.append(String.format("%d-e ", s));
+                    message += String.format("%d-e ", s);
                 else if (q + w > 0) // Возможен пренос
                     if (q + w > 1)
-                        builder.append("Множество решений в разряде " + (digit.length - i));
+                        message += ("Множество решений в разряде " + (digit.length - i));
                     else {
                         if (q > 0)
-                            builder.append(String.format("%d-q ", 10 - s));
+                            message += String.format("%d-q ", 10 - s);
                         else if (w > 0)
-                            builder.append(String.format("%d-w ", 10 - s));
+                            message += String.format("%d-w ", 10 - s);
                         isOwer = 1;
                     }
-                else
-                    return builder.append("Правая часть: решения нет в разряде " + (digit.length - i)).toString();
+                else {
+                    return message += ("Правая часть: решения нет в разряде " + (digit.length - i));
+                }
             else if (c > 1)
-                builder.append("Множество решений в разряде " + (digit.length - i));
-            else // Возможен перенос
-                isOwer = isOwer;
+                message += ("Множество решений в разряде " + (digit.length - i));
+
         }
         if (isOwer == 1)
-            builder.append("Тривиальных решений не найдено");
-        return builder.toString();
+            message += "Тривиальных решений не найдено";
+        return message;
     }
 
-    static String inputStr(Scanner scanner, String message, int minValue, int maxValue) {
+    static String inputStr(Scanner scanner, String message) {
         // метод ввода макета двухзначного числа
         String line;
         try {
@@ -131,8 +130,8 @@ public class program {
             }
 
         } catch (NumberFormatException ex) {
-            System.out.printf("Неверный ввод. Ожидается число, нопример '71' или '?1' \n", minValue, maxValue);
-            line = inputStr(scanner, message, minValue, maxValue);
+            System.out.printf("Неверный ввод. Ожидается число, нопример '71' или '?1' \n");
+            line = inputStr(scanner, message);
         }
         return line;
     }
