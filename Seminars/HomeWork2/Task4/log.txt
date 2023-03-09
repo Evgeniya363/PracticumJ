@@ -2,9 +2,15 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:32.737102700Z</date>
   <millis>1678392272737</millis>
   <nanos>102700</nanos>
+=======
+  <date>2023-03-09T16:00:00.406502900Z</date>
+  <millis>1678377600406</millis>
+  <nanos>502900</nanos>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <sequence>0</sequence>
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
@@ -14,9 +20,15 @@
   <message>Простейший калькулятор\Вход в программу выполнен</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:35.829737600Z</date>
   <millis>1678392275829</millis>
   <nanos>737600</nanos>
+=======
+  <date>2023-03-09T16:00:01.776110200Z</date>
+  <millis>1678377601776</millis>
+  <nanos>110200</nanos>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <sequence>1</sequence>
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
@@ -26,9 +38,15 @@
   <message>Введено пользователем: 1</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:35.830734200Z</date>
   <millis>1678392275830</millis>
   <nanos>734200</nanos>
+=======
+  <date>2023-03-09T16:00:01.778100400Z</date>
+  <millis>1678377601778</millis>
+  <nanos>100400</nanos>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <sequence>2</sequence>
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
@@ -38,10 +56,73 @@
   <message>Введен операнд: 1.0</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:40.151902700Z</date>
   <millis>1678392280151</millis>
   <nanos>902700</nanos>
+=======
+  <date>2023-03-09T16:00:03.324844500Z</date>
+  <millis>1678377603324</millis>
+  <nanos>844500</nanos>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <sequence>3</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+<<<<<<< HEAD
+  <message>Введено пользователем /</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:40.151902700Z</date>
+  <millis>1678392280151</millis>
+  <nanos>902700</nanos>
+  <sequence>4</sequence>
+=======
+  <message>Введено пользователем .</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:03.327837600Z</date>
+  <millis>1678377603327</millis>
+  <nanos>837600</nanos>
+  <sequence>4</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>WARNING</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Неверный ввод</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:04.080866900Z</date>
+  <millis>1678377604080</millis>
+  <nanos>866900</nanos>
+  <sequence>5</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем 2</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:04.082821900Z</date>
+  <millis>1678377604082</millis>
+  <nanos>821900</nanos>
+  <sequence>6</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>WARNING</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Неверный ввод</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:08.778684300Z</date>
+  <millis>1678377608778</millis>
+  <nanos>684300</nanos>
+  <sequence>7</sequence>
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
@@ -50,10 +131,11 @@
   <message>Введено пользователем /</message>
 </record>
 <record>
-  <date>2023-03-09T20:04:40.151902700Z</date>
-  <millis>1678392280151</millis>
-  <nanos>902700</nanos>
-  <sequence>4</sequence>
+  <date>2023-03-09T16:00:08.780040500Z</date>
+  <millis>1678377608780</millis>
+  <nanos>40500</nanos>
+  <sequence>8</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
@@ -62,15 +144,47 @@
   <message>Введена операция: /</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:42.701691500Z</date>
   <millis>1678392282701</millis>
   <nanos>691500</nanos>
   <sequence>5</sequence>
+=======
+  <date>2023-03-09T16:00:08.780040500Z</date>
+  <millis>1678377608780</millis>
+  <nanos>40500</nanos>
+  <sequence>9</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:08.780682400Z</date>
+  <millis>1678377608780</millis>
+  <nanos>682400</nanos>
+  <sequence>10</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:10.771626500Z</date>
+  <millis>1678377610771</millis>
+  <nanos>626500</nanos>
+  <sequence>11</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
   <method>inputDouble</method>
   <thread>1</thread>
+<<<<<<< HEAD
   <message>Введено пользователем: 1</message>
 </record>
 <record>
@@ -78,11 +192,21 @@
   <millis>1678392282701</millis>
   <nanos>691500</nanos>
   <sequence>6</sequence>
+=======
+  <message>Введено пользователем: 2</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:10.772621300Z</date>
+  <millis>1678377610772</millis>
+  <nanos>621300</nanos>
+  <sequence>12</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
   <method>inputDouble</method>
   <thread>1</thread>
+<<<<<<< HEAD
   <message>Введен операнд: 1.0</message>
 </record>
 <record>
@@ -90,6 +214,75 @@
   <millis>1678392282704</millis>
   <nanos>684300</nanos>
   <sequence>7</sequence>
+=======
+  <message>Введен операнд: 2.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:10.778605400Z</date>
+  <millis>1678377610778</millis>
+  <nanos>605400</nanos>
+  <sequence>13</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>calculation</method>
+  <thread>1</thread>
+  <message>Результат вычисления: 0.5</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:14.742109Z</date>
+  <millis>1678377614742</millis>
+  <nanos>109000</nanos>
+  <sequence>14</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем *</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:14.743105900Z</date>
+  <millis>1678377614743</millis>
+  <nanos>105900</nanos>
+  <sequence>15</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: *</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:15.903942600Z</date>
+  <millis>1678377615903</millis>
+  <nanos>942600</nanos>
+  <sequence>16</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: 2</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:15.903942600Z</date>
+  <millis>1678377615903</millis>
+  <nanos>942600</nanos>
+  <sequence>17</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 2.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:15.904943400Z</date>
+  <millis>1678377615904</millis>
+  <nanos>943400</nanos>
+  <sequence>18</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
@@ -98,10 +291,269 @@
   <message>Результат вычисления: 1.0</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:47.303068Z</date>
   <millis>1678392287303</millis>
   <nanos>68000</nanos>
   <sequence>8</sequence>
+=======
+  <date>2023-03-09T16:00:19.443141600Z</date>
+  <millis>1678377619443</millis>
+  <nanos>141600</nanos>
+  <sequence>19</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем -</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:19.444121900Z</date>
+  <millis>1678377619444</millis>
+  <nanos>121900</nanos>
+  <sequence>20</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: -</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:21.582172900Z</date>
+  <millis>1678377621582</millis>
+  <nanos>172900</nanos>
+  <sequence>21</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: 15</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:21.583330Z</date>
+  <millis>1678377621583</millis>
+  <nanos>330000</nanos>
+  <sequence>22</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 15.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:21.583330Z</date>
+  <millis>1678377621583</millis>
+  <nanos>330000</nanos>
+  <sequence>23</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>calculation</method>
+  <thread>1</thread>
+  <message>Результат вычисления: -14.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:28.149103400Z</date>
+  <millis>1678377628149</millis>
+  <nanos>103400</nanos>
+  <sequence>24</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем 122</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:28.151068700Z</date>
+  <millis>1678377628151</millis>
+  <nanos>68700</nanos>
+  <sequence>25</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>WARNING</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Неверный ввод</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:30.570110300Z</date>
+  <millis>1678377630570</millis>
+  <nanos>110300</nanos>
+  <sequence>26</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:30.570110300Z</date>
+  <millis>1678377630570</millis>
+  <nanos>110300</nanos>
+  <sequence>27</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:30.570110300Z</date>
+  <millis>1678377630570</millis>
+  <nanos>110300</nanos>
+  <sequence>28</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:32.901235200Z</date>
+  <millis>1678377632901</millis>
+  <nanos>235200</nanos>
+  <sequence>29</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: 0</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:32.902216600Z</date>
+  <millis>1678377632902</millis>
+  <nanos>216600</nanos>
+  <sequence>30</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 0.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:32.903174Z</date>
+  <millis>1678377632903</millis>
+  <nanos>174000</nanos>
+  <sequence>31</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>WARNING</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>calculation</method>
+  <thread>1</thread>
+  <message>Деление на 0, операция не может быть выполнена</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:37.977541600Z</date>
+  <millis>1678377637977</millis>
+  <nanos>541600</nanos>
+  <sequence>32</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:37.978622400Z</date>
+  <millis>1678377637978</millis>
+  <nanos>622400</nanos>
+  <sequence>33</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: /</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:39.098161600Z</date>
+  <millis>1678377639098</millis>
+  <nanos>161600</nanos>
+  <sequence>34</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: edfv</message>
+</record>
+<record>
+  <date>2023-03-09T16:00:39.100157700Z</date>
+  <millis>1678377639100</millis>
+  <nanos>157700</nanos>
+  <sequence>35</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>WARNING</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Неверный ввод.Введите операнд, используя цифры (0-9) и знак '.':</message>
+</record>
+<record>
+  <date>2023-03-09T16:01:14.110732800Z</date>
+  <millis>1678377674110</millis>
+  <nanos>732800</nanos>
+  <sequence>36</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: 3</message>
+</record>
+<record>
+  <date>2023-03-09T16:01:14.111732400Z</date>
+  <millis>1678377674111</millis>
+  <nanos>732400</nanos>
+  <sequence>37</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 3.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:01:14.111732400Z</date>
+  <millis>1678377674111</millis>
+  <nanos>732400</nanos>
+  <sequence>38</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 3.0</message>
+</record>
+<record>
+  <date>2023-03-09T16:01:14.111732400Z</date>
+  <millis>1678377674111</millis>
+  <nanos>732400</nanos>
+  <sequence>39</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>calculation</method>
+  <thread>1</thread>
+  <message>Результат вычисления: -4.666666666666667</message>
+</record>
+<record>
+  <date>2023-03-09T16:01:21.584106400Z</date>
+  <millis>1678377681584</millis>
+  <nanos>106400</nanos>
+  <sequence>40</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
@@ -110,10 +562,17 @@
   <message>Введено пользователем q</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:47.304053700Z</date>
   <millis>1678392287304</millis>
   <nanos>53700</nanos>
   <sequence>9</sequence>
+=======
+  <date>2023-03-09T16:01:21.584106400Z</date>
+  <millis>1678377681584</millis>
+  <nanos>106400</nanos>
+  <sequence>41</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
@@ -122,10 +581,17 @@
   <message>Введена операция: q</message>
 </record>
 <record>
+<<<<<<< HEAD
   <date>2023-03-09T20:04:47.304053700Z</date>
   <millis>1678392287304</millis>
   <nanos>53700</nanos>
   <sequence>10</sequence>
+=======
+  <date>2023-03-09T16:01:21.584106400Z</date>
+  <millis>1678377681584</millis>
+  <nanos>106400</nanos>
+  <sequence>42</sequence>
+>>>>>>> b549a26de2c0b3759723783e703e4122e911cb38
   <logger>HomeWork2.Task4.calculator</logger>
   <level>INFO</level>
   <class>HomeWork2.Task4.calculator</class>
