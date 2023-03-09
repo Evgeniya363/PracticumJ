@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-09T20:04:32.737102700Z</date>
+  <millis>1678392272737</millis>
+  <nanos>102700</nanos>
+  <sequence>0</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Простейший калькулятор\Вход в программу выполнен</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:35.829737600Z</date>
+  <millis>1678392275829</millis>
+  <nanos>737600</nanos>
+  <sequence>1</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: 1</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:35.830734200Z</date>
+  <millis>1678392275830</millis>
+  <nanos>734200</nanos>
+  <sequence>2</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 1.0</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:40.151902700Z</date>
+  <millis>1678392280151</millis>
+  <nanos>902700</nanos>
+  <sequence>3</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем /</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:40.151902700Z</date>
+  <millis>1678392280151</millis>
+  <nanos>902700</nanos>
+  <sequence>4</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: /</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:42.701691500Z</date>
+  <millis>1678392282701</millis>
+  <nanos>691500</nanos>
+  <sequence>5</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введено пользователем: 1</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:42.701691500Z</date>
+  <millis>1678392282701</millis>
+  <nanos>691500</nanos>
+  <sequence>6</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputDouble</method>
+  <thread>1</thread>
+  <message>Введен операнд: 1.0</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:42.704684300Z</date>
+  <millis>1678392282704</millis>
+  <nanos>684300</nanos>
+  <sequence>7</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>calculation</method>
+  <thread>1</thread>
+  <message>Результат вычисления: 1.0</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:47.303068Z</date>
+  <millis>1678392287303</millis>
+  <nanos>68000</nanos>
+  <sequence>8</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введено пользователем q</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:47.304053700Z</date>
+  <millis>1678392287304</millis>
+  <nanos>53700</nanos>
+  <sequence>9</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>inputChar</method>
+  <thread>1</thread>
+  <message>Введена операция: q</message>
+</record>
+<record>
+  <date>2023-03-09T20:04:47.304053700Z</date>
+  <millis>1678392287304</millis>
+  <nanos>53700</nanos>
+  <sequence>10</sequence>
+  <logger>HomeWork2.Task4.calculator</logger>
+  <level>INFO</level>
+  <class>HomeWork2.Task4.calculator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа завершена</message>
+</record>
+</log>
